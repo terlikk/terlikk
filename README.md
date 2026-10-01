@@ -2,34 +2,47 @@
 
 # terlikk
 
-### AI agents · Self-hosted software · Hardware experiments
+**AI agents. Self-hosted tools. Hardware experiments.**
 
-Building tools that turn complex workflows into useful, everyday software.
+Building practical software — from personal assistants to the homelab.
 
-[Explore my projects](https://github.com/terlikk?tab=repositories)
+[Projects](https://github.com/terlikk?tab=repositories) · [Mystic Agent](https://github.com/terlikk/mystic-agent) · [Cohors](https://github.com/terlikk/cohors) · [MalleusOS](https://github.com/terlikk/MalleusOS)
 
 </div>
 
 ---
 
-## Selected projects
+## Selected work
 
-| Project | What it does | Built with |
-| :--- | :--- | :--- |
-| **[Mystic Agent](https://github.com/terlikk/mystic-agent)** | A self-hosted AI assistant with proactive automation, human approvals and an audit trail. | Python |
-| **[Cohors](https://github.com/terlikk/cohors)** | A team of AI agents with plain-language tasks, approval workflows and per-agent budgets. | TypeScript · Next.js · SQLite |
-| **[MalleusOS](https://github.com/terlikk/MalleusOS)** | A homelab dashboard for live metrics, Docker containers and one-click apps. | Go · Svelte · Docker |
+### [Mystic Agent](https://github.com/terlikk/mystic-agent)
+A personal AI assistant with a local dashboard, Telegram and configurable tool permissions. The runtime and storage are self-hosted; AI models and connected services use external APIs.
 
-## What I build
+`Python` `FastAPI` `Early access`
 
-- **AI & automation** — personal assistants, agent teams and workflows with human oversight.
-- **Self-hosted tools** — practical software for running services on your own hardware.
-- **Hardware experiments** — exploring devices and documenting how they communicate, including [HOTO H-D50 BLE research](https://github.com/terlikk/Projekt).
+### [Cohors](https://github.com/terlikk/cohors)
+A workspace for AI agent teams: roles, task planning, team chat and result reviews. Supports several execution engines and tracks reported or estimated costs.
 
-## Toolbox
+`TypeScript` `Next.js` `SQLite`
 
-`Python` `TypeScript` `Go` `Next.js` `Svelte` `Docker` `SQLite`
+### [MalleusOS](https://github.com/terlikk/MalleusOS)
+A Linux homelab dashboard for live metrics, Docker containers and an application catalog. Go backend with an embedded Svelte UI; an experimental Alpine USB image builder is also included.
+
+`Go` `Svelte` `Docker` `Linux`
 
 ---
 
-**Cześć!** Tworzę agentów AI, narzędzia self-hosted i eksperymentuję ze sprzętem. Powyżej znajdziesz moje publiczne projekty oraz ich dokumentację.
+## On the workbench
+
+**[HOTO H-D50 · BLE research](https://github.com/terlikk/Projekt)** — a documented procedure for investigating a laser distance meter’s Bluetooth protocol. Research notes only; device UUIDs and payload formats still need confirmation.
+
+## Focus
+
+- **AI tooling** — assistants, agent coordination and review workflows.
+- **Self-hosting** — local dashboards and tools for managing your own services.
+- **Hardware** — exploring how devices work and communicate.
+
+**Toolbox:** Python · TypeScript · Go · Next.js · Svelte · Docker · SQLite
+
+---
+
+**Cześć!** Tworzę narzędzia AI, rozwijam projekty self-hosted i eksperymentuję ze sprzętem. W repozytoriach znajdziesz instrukcje uruchomienia oraz opis aktualnych możliwości i ograniczeń.
